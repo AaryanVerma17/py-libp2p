@@ -36,8 +36,8 @@ class Settings:
     peer_address: str = os.getenv("PEER_ADDRESS", "")
 
     # LLM (via LiteLLM)
-    llm_model: str = os.getenv("LLM_MODEL", "gpt-4o-mini")
-    llm_api_key: str = os.getenv("LLM_API_KEY", "")
+    llm_model: str = os.getenv("LLM_MODEL", "gemini/gemini-3.6-flash")
+    LLM_API_KEY = None
     llm_api_base: str = os.getenv("LLM_API_BASE", "")
 
     # EtherCalc
