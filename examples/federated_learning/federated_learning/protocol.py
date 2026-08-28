@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import numpy as np
 from libp2p.custom_types import TProtocol
-from libp2p.network.stream.net_stream_interface import INetStream
+from libp2p.network.stream.net_stream import INetStream
 
 from .serialization import ModelUpdate, SerializationError, deserialize_update, serialize_update
 

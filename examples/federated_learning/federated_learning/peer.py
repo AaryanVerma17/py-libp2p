@@ -24,7 +24,7 @@ import multiaddr
 from libp2p import new_host
 from libp2p.crypto.secp256k1 import create_new_key_pair
 from libp2p.peer.peerinfo import info_from_p2p_addr
-from libp2p.network.stream.net_stream_interface import INetStream
+from libp2p.network.stream.net_stream import INetStream
 
 from . import model as model_lib
 from . import training
